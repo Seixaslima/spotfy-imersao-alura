@@ -1,0 +1,10 @@
+:root {
+  --font-main: "DM Sans", sans-serif;
+
+  /* COLOR */
+  --background-primary: #121212;
+  --background-primary-light: #242424;
+  --text-primary: #b3b3b3;
+  --bg-color: #131313;
+  --bg-arrow-color: rgba(0, 0, 0, 7);
+}
