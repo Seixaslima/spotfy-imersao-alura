@@ -155,3 +155,41 @@ body {
   padding: 8px;
   cursor: pointer;
 }
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: linear-gradient(to right, #ff00ff, #00ffff);
+  padding: 15px 40px;
+}
+
+.footer__texto {
+  color: #fff;
+}
+
+.footer__texto__title {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.footer__texto__disclaimer {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.footer__botao__btn {
+  padding: 14px 30px;
+  border: 0px;
+  border-radius: 9999px;
+  background-color: white;
+  font-size: 16px;
+  font-weight: 700;
+  color: black;
+  cursor: pointer;
+}
